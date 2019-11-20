@@ -200,6 +200,7 @@ public class Miniräknare extends Application implements EventHandler<ActionEven
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
         input.textProperty().set(engine.eval(expression).toString());
 
+
     }
 
     private String method(String in){
